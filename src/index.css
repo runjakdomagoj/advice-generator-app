@@ -1,0 +1,17 @@
+:root {
+   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+   font-weight: 400;
+   --background: #1f2732;
+   --primary: #313a49;
+   --secondary: #53ffab;
+   --text: #baced5;
+}
+
+body {
+   margin: 0;
+   display: flex;
+   place-items: center;
+   min-width: 320px;
+   min-height: 100vh;
+   background: var(--background);
+}
